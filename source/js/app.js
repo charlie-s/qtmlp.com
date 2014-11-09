@@ -1,0 +1,7 @@
+//
+// Foundation
+//
+$(function() {
+    $(document).foundation();
+});
+

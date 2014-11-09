@@ -1,0 +1,27 @@
+// Custom gutters for small viewport.
+@media #{$small-only} {
+    .column,
+    .columns {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row {
+        padding-left: 12px;
+        padding-right: 12px;
+        &.collapse {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}
+
+.row .row {
+    padding-left: 0;
+    padding-right: 0;
+
+    @media #{$small-only} {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}

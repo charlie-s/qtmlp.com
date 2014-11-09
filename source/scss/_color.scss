@@ -1,0 +1,13 @@
+// Build out all text, button, and BG colors.
+@each $color in $colors {
+  $name: nth($color, 1);
+  $hex: nth($color, 2);
+
+  .color-#{$name}-bg {
+    background-color: $hex !important;
+  }
+
+  .color-#{$name}-text {
+    color: $hex !important;
+  }
+}

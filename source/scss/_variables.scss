@@ -1,0 +1,37 @@
+// Colors.
+$color-white: #f7f7f7;
+$color-black: #000000;
+$color-gray: #777777;
+$color-blue-light: #eef5f7;
+$color-blue: #163f5f;
+$color-green: #a9ac00;
+
+// Colors Array.
+$colors: (
+    white $color-white,
+    black $color-black,
+    gray $color-gray,
+    blue $color-blue,
+    blue-light $color-blue-light,
+    green $color-green
+);
+
+// Transition Speeds
+$transition-speed-very-fast: 150ms;
+$transition-speed-fast: 200ms;
+$transition-speed-normal: 300ms;
+$transition-speed-slow: 500ms;
+$transition-speed-very-slow: 700ms;
+$transition-speed-ultra-slow: 1000ms;
+
+//
+// Foundation settings
+//
+$body-bg: $color-white;
+$body-font-color: $color-gray;
+$body-font-family: 'Fira Sans';
+
+$primary-color: $color-blue;
+$secondary-color: $color-green;
+
+$fi-path: "/fonts";

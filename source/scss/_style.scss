@@ -1,0 +1,141 @@
+@import "compass/css3";
+
+a {
+    transition: color 200ms;
+}
+a:hover {
+    color: $color-green;
+    transition: color 200ms;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.bg-fill {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.block {
+    display: block;
+}
+
+.fade {
+    opacity: 0.3;
+}
+
+.slide-height {
+    height: 400px;
+}
+
+#dwn-arrow {
+    position: absolute;
+    cursor: pointer;
+    @include transition(opacity $transition-speed-normal);
+
+    &:hover {
+        opacity: 0.5;
+        @include transition(opacity $transition-speed-normal);
+    }
+}
+
+#nav-burger {
+    font-size: 44px;
+    opacity: 0.3;
+    position: fixed;
+    z-index: 100;
+    top: 14px;
+    right: 20px;
+
+    i {
+        text-shadow: 0 0 5px #fff
+    }
+}
+
+#nav-close {
+    position: absolute;
+    z-index: 100;
+    top: 2px;
+    right: 12px;
+
+    i {
+        font-size: 32px;
+        color: $color-white;
+    }
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 0 0 32px;
+    font-size: 20px;
+
+    @media #{$medium-only} {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+
+//
+// Type
+//
+h1 {
+    margin: 0;
+    font-size: 42px;
+    line-height: 54px;
+
+    @media #{$small-only} {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+.type-eyebrow {
+    font-size: 28px;
+    line-height: 1.1;
+}
+.slide-large {
+    font-size: 68px;
+    line-height: 56px;
+    text-shadow: 1px 1px 3px #444;
+
+    @media #{$small-only} {
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    @media #{$medium-only} {
+        font-size: 44px;
+        line-height: 40px;
+    }
+}
+.slide-small {
+    font-size: 34px;
+    line-height: 40px;
+    text-shadow: 1px 1px 3px #444;
+
+    @media #{$small-only} {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    @media #{$medium-only} {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}

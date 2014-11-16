@@ -1,1 +1,7 @@
-$(function(){$(document).foundation()});var height=window.innerHeight-$("#small-logo-wrap").outerHeight(),width=window.innerWidth;$("#hero").css("height",height+"px");var dW=$("#dwn-arrow").width(),dH=$("#dwn-arrow").height();$("#dwn-arrow").css({width:dW+"px",height:dH+"px",left:width/2-dW/2+"px",top:window.innerHeight-dH+"px"}).click(function(){$("html, body").animate({scrollTop:$("#dwn-arrow").offset().top+$("#dwn-arrow").height()},500)});
+//
+// Foundation
+//
+$(function() {
+    $(document).foundation();
+});
+

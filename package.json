@@ -17,10 +17,10 @@
     "assemble": "~0.4.41"
   },
   "dependencies": {
-    "imagemin": "^2.0.0",
-    "imagemin-gifsicle": "^2.0.0",
+    "imagemin": "^2.2.1",
+    "imagemin-gifsicle": "^2.0.1",
     "imagemin-jpegtran": "^2.0.0",
     "imagemin-optipng": "^2.0.1",
-    "imagemin-pngquant": "^2.0.0"
+    "imagemin-pngquant": "^2.0.1"
   }
 }

@@ -1,18 +1,18 @@
 // Colors.
-$color-white: #f7f7f7;
-$color-black: #000000;
-$color-gray: #777777;
-$color-blue-light: #eef5f7;
-$color-blue: #163f5f;
-$color-green: #a9ac00;
+$color-white: #fff;
+$color-black: #000;
+$color-blue: #006CB6;
+$color-gray: #747B82;
+$color-blue-gray: #4f7692;
+$color-green: #6EC829;
 
 // Colors Array.
 $colors: (
     white $color-white,
     black $color-black,
-    gray $color-gray,
     blue $color-blue,
-    blue-light $color-blue-light,
+    gray $color-gray,
+    blue-gray $color-blue-gray,
     green $color-green
 );
 
@@ -27,11 +27,12 @@ $transition-speed-ultra-slow: 1000ms;
 //
 // Foundation settings
 //
+$header-font-color: $color-blue-gray;
 $body-bg: $color-white;
 $body-font-color: $color-gray;
-$body-font-family: 'Fira Sans';
+$body-font-family: 'Droid Sans';
 
 $primary-color: $color-blue;
-$secondary-color: $color-green;
+$secondary-color: $color-blue-gray;
 
 $fi-path: "/fonts";

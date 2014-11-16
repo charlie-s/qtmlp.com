@@ -4,7 +4,7 @@ a {
     transition: color 200ms;
 }
 a:hover {
-    color: $color-green;
+    color: $color-blue-gray;
     transition: color 200ms;
 }
 
@@ -20,6 +20,10 @@ strong {
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
+}
+
+small {
+    font-size: 10px;
 }
 
 .upper {
@@ -43,6 +47,10 @@ strong {
 
 .slide-height {
     height: 400px;
+}
+
+.button {
+
 }
 
 #dwn-arrow {

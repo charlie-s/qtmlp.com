@@ -3,22 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
     <link rel="stylesheet" type="text/css" href="/css/app.css" />
     <title>{{title}}</title>
 </head>
 
-<body class="background-pattern-paper">
+<body>
 
-    <div class="row show-for-medium-up medium-margin-top-4x margin-bottom-2x">
-        <div class="medium-4 columns">
+    <div class="row show-for-medium-up medium-margin-top-8x large-margin-top-5x medium-margin-bottom-2x">
+        <div class="medium-4 medium-offset-1 large-4 large-offset-0 columns">
             <a href="/"><img src="/images/logo.svg" /></a>
         </div>
-        <div class="medium-8 columns text-right">
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:3141234567"><i class="fi-telephone"></i> (314) 123-4567</a>
+        <div class="medium-6 large-8 columns text-right">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a class="show-for-small" href="tel:3141234567"><i class="fi-telephone"></i> (314) 123-4567</a>
+            <span class="show-for-medium-up"><i class="fi-telephone"></i> (314) 123-4567</span>
             <nav class="medium-margin-top-7x large-margin-top-8x">
                 <a href="/foo">Foo</a>
             </nav>
+        </div>
+        <div class="medium-1 large-0 columns">
         </div>
     </div>
 
@@ -45,37 +48,29 @@
 
             <section data-role="footer">
                 <div class="row small-padding-top-5x small-padding-bottom-10x">
-                    <div class="small-12 medium-4 columns">
+                    <div class="small-12 medium-5 medium-offset-1 large-6 large-offset-0 columns">
                         <h3>Services</h3>
                         <ul>
                             <li>Wealth management</li>
                         </ul>
                     </div>
-                    <div class="small-12 medium-4 columns">
+                    <div class="small-12 medium-5 large-6 large-offset-0 columns end">
                         <hr class="show-for-small">
-                        <h3>Foo Col</h3>
-                    </div>
-                    <div class="small-12 medium-4 columns text-center">
-                        <p class="block color-green-text margin-top-3x margin-bottom-5x">
-                            Foo.
-                        </p>
-                        <div class="row">
-                            <div class="small-8 small-offset-2 columns end">
-                                Foo.
-                            </div>
-                        </div>
+                        <h3>Contact</h3>
+                        <p>Contact info.</p>
                     </div>
                 </div>
             </section>
 
-            <div class="full-width background-pattern-blue">
-                <div class="row small-padding-top-5x small-padding-bottom-2x color-gray-text text-center">
-                    <div class="small-12 columns">
-                        <p>
-                            Copyright &copy; 2014<br class="show-for-small" />
-                            @todo
-                        </p>
-                    </div>
+            <div class="row margin-bottom-8x small-padding-top-5x small-padding-bottom-2x color-gray-text">
+                <div class="small-12 medium-10 medium-offset-1 large-12 large-offset-0 end columns">
+                    <small class="color-blue-gray">
+                        <a href="#">Disclosures</a> |
+                        <a href="#">Terms of Use</a><br />
+                        Copyright &copy; 2014
+                        QuantumLeap Wealth Management LLC.&nbsp;
+                        <br class="show-for-small" />All rights reserved.
+                    </small>
                 </div>
             </div>
 
